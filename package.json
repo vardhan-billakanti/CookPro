@@ -1,0 +1,30 @@
+{
+  "name": "cookpro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "db:migrate": "npx tsx scripts/migrate.ts",
+    "db:test": "npx tsx scripts/test-db.ts"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "dotenv": "^17.4.2",
+    "lucide-react": "^1.16.0",
+    "mongodb": "^7.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^26.4.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  }
+}
