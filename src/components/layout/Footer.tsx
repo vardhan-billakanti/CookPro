@@ -61,28 +61,29 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Footer Bottom */}
+        {/* Footer Bottom: Unified Tagline & Creator Credit */}
         <div className="footer-bottom">
-          <span>&copy; {new Date().getFullYear()} CookPro App. All rights reserved.</span>
-          <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-            Cook with purpose and delight <Heart size={14} fill="var(--accent-terracotta)" stroke="none" />
-          </span>
-        </div>
+          <div className="footer-tagline">
+            <span>Cook with purpose and delight</span>
+            <Heart size={14} fill="var(--accent-terracotta)" stroke="none" />
+          </div>
 
-        {/* Creator Attribution */}
-        <div className="footer-creator">
-          <p className="footer-creator-credit">
-            Designed &amp; Developed by{' '}
-            <a
-              href="https://vardhanbillakanti.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer-creator-link"
-            >
-              Billakanti Jaya Vardhan
-            </a>
-          </p>
-          <p className="footer-creator-copy">© 2026 · All Rights Reserved</p>
+          <div className="footer-bottom-divider" aria-hidden="true" />
+
+          <div className="footer-creator">
+            <p className="footer-creator-credit">
+              Designed &amp; Developed by{' '}
+              <a
+                href="https://vardhanbillakanti.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-creator-link"
+              >
+                Billakanti Jaya Vardhan
+              </a>
+            </p>
+            <p className="footer-creator-copy">© 2026 · All Rights Reserved</p>
+          </div>
         </div>
       </div>
     </footer>
