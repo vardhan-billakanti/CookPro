@@ -61,14 +61,12 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Footer Bottom: Unified Tagline & Creator Credit */}
+        {/* Footer Bottom: Centered Tagline & Creator Credit */}
         <div className="footer-bottom">
           <div className="footer-tagline">
             <span>Cook with purpose and delight</span>
-            <Heart size={14} fill="var(--accent-terracotta)" stroke="none" />
+            <Heart size={13} fill="var(--accent-terracotta)" stroke="none" />
           </div>
-
-          <div className="footer-bottom-divider" aria-hidden="true" />
 
           <div className="footer-creator">
             <p className="footer-creator-credit">
