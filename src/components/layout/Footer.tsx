@@ -68,6 +68,22 @@ export const Footer: React.FC = () => {
             Cook with purpose and delight <Heart size={14} fill="var(--accent-terracotta)" stroke="none" />
           </span>
         </div>
+
+        {/* Creator Attribution */}
+        <div className="footer-creator">
+          <p className="footer-creator-credit">
+            Designed &amp; Developed by{' '}
+            <a
+              href="https://vardhanbillakanti.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-creator-link"
+            >
+              Billakanti Jaya Vardhan
+            </a>
+          </p>
+          <p className="footer-creator-copy">© 2026 · All Rights Reserved</p>
+        </div>
       </div>
     </footer>
   );
